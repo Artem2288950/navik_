@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Navik</string>
+    <string name="search_hint">Where to?</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_start_navigation">Start navigation</string>
+    <string name="btn_my_location">My location</string>
+    <string name="profile_car">Car</string>
+    <string name="profile_foot">Walk</string>
+    <string name="profile_bike">Bike</string>
+    <string name="building_route">Building route…</string>
+    <string name="route_error">Could not build a route</string>
+    <string name="search_error">No results found</string>
+    <string name="location_permission_needed">Location access is needed to route from your position</string>
+    <string name="you_have_arrived">You have arrived at your destination</string>
+    <string name="nav_tab_map">Map</string>
+    <string name="nav_tab_search">Search</string>
+    <string name="nav_tab_favorites">Favorites</string>
+    <string name="nav_tab_history">History</string>
+</resources>

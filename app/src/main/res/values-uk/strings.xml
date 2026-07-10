@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Navik</string>
+    <string name="search_hint">Куди їдемо?</string>
+    <string name="btn_search">Знайти</string>
+    <string name="btn_start_navigation">Почати навігацію</string>
+    <string name="btn_my_location">Моє місцезнаходження</string>
+    <string name="profile_car">Авто</string>
+    <string name="profile_foot">Пішки</string>
+    <string name="profile_bike">Велосипед</string>
+    <string name="building_route">Будуємо маршрут…</string>
+    <string name="route_error">Не вдалося побудувати маршрут</string>
+    <string name="search_error">Нічого не знайдено</string>
+    <string name="location_permission_needed">Потрібен доступ до геолокації, щоб побудувати маршрут від вашого місця</string>
+    <string name="you_have_arrived">Ви прибули до пункту призначення</string>
+    <string name="nav_tab_map">Карта</string>
+    <string name="nav_tab_search">Пошук</string>
+    <string name="nav_tab_favorites">Обране</string>
+    <string name="nav_tab_history">Історія</string>
+</resources>
