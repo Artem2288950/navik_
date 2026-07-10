@@ -23,6 +23,11 @@ jobs:
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
 
+      - name: Accept licenses and install required SDK packages
+        run: |
+          yes | sdkmanager --licenses || true
+          sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
+
       # В репозитории нет gradle-wrapper.jar (бинарный файл), поэтому используем
       # официальный экшен, который сам ставит нужную версию Gradle в CI —
       # это не требует коммита бинарников в git.
